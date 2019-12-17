@@ -1,0 +1,31 @@
+.articleTitle {
+  font-family: Palatino;
+  font-weight: bold;
+  border-top: 2px solid #343a40;
+  padding-top: 16px;
+  margin-top:16px;
+}
+
+h6 {
+  font-family: New Century Schoolbook, serif;
+}
+
+p {
+  font-family: New Century Schoolbook, serif;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: keep-all;
+  font-size: large;
+  font-family: New Century Schoolbook, serif;
+}
+
+.tags {
+  padding-top: 10px;
+  padding-left: 16px;
+  font-family: New Century Schoolbook, serif;
+  font-size: medium;
+  margin-left: 16px;
+  border-left: 1px solid red;
+}

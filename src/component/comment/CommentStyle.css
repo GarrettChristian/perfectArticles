@@ -1,0 +1,48 @@
+.displayComment {
+    text-align: left;
+}
+
+.addCommentTextArea {
+    word-wrap: break-word;
+}
+
+.commentUserName {
+    font-weight: bold;
+    color: grey;
+}
+
+.commentDate {
+    padding-left: 10px;
+    color: grey;
+}
+
+.commentText {
+    border-left: 20px;
+    padding-left: 10px;
+    word-wrap: break-word;
+    border-left: 1px solid red;
+}
+
+.likeDislike {
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.likeDislikeButton {
+    margin-right: 10px;
+    text-decoration: underline lightgray;
+}
+
+.commentHeader {
+    display: inline-flex;
+}
+
+.commentButtons {
+    display: inline-flex;
+    padding-left: 20px;
+}

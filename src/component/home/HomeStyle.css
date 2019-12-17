@@ -1,0 +1,48 @@
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-family: Palatino;
+    font-weight: 900;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #343a40;
+    margin-top: 16px;
+}
+
+.subHeaderFeatured {
+    text-align: center;
+    font-family: Palatino;
+    border-top: 2px solid #343a40;
+    padding-top: 16px
+}
+
+.subHeader {
+    text-align: center;
+    font-family: Palatino;
+}
+
+.innerText {
+    text-align: center;
+    font-family: New Century Schoolbook, serif;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.viewArticlesButton {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #343a40;
+    background-color: #343a40;
+    border-radius: 5px;
+    color: white;
+    font-family: Palintino;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+}
+
+.tableArticles {
+    font-family: New Century Schoolbook, serif;
+}

@@ -1,0 +1,43 @@
+.commentLargerBox {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #343a40;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.viewCommentsButton {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #343a40;
+    background-color: #343a40;
+    border-radius: 5px;
+    color: white;
+    font-family: Palintino;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.addComment {
+    font-family: New Century Schoolbook, serif;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #343a40;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+
+
+.subHeading {
+    text-align: center;
+    font-family: New Century Schoolbook, serif;
+}
