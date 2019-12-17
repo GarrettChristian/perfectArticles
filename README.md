@@ -1,4 +1,4 @@
 # perfectArticles
 
-### interview project
-### see documentation for more details
+### Interview project
+### See documentation for more details
