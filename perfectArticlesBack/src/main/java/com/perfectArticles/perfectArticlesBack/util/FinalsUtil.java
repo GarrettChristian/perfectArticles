@@ -12,8 +12,8 @@ public class FinalsUtil {
             "when", "up", "use", "word", "how", "said", "an", "each", "she", "which", "do", "their", "time", "if",
             "will", "way", "about", "many", "then", "them", "would", "write", "like", "so", "these", "her", "long",
             "make", "thing", "see", "him", "two", "has", "look", "more", "day", "could", "go", "come", "did", "my",
-            "sound", "no", "most", "number", "who", "over", "know", "water", "than", "call", "first", "people", "may",
-            "down", "side", "been", "now", "find"};
+            "sound", "no", "most", "number", "who", "over", "its", "it's", "know", "water", "than", "call", "first", "people", "may",
+            "down", "side", "been", "now", "find", "really", "very"};
     public static final Set<String> IGNORE_IN_TAG = new HashSet<String>(Arrays.asList(IGNORE_WORDS_ARRAY));
 
     public static final String LIKES = "LIKES";

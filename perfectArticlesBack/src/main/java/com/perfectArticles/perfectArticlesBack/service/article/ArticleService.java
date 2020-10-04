@@ -395,6 +395,320 @@ public class ArticleService {
         AddResponse addResponse3 = addArticleWithComments(article3);
         addResponse.updateMessage(addResponse3.getMessage());
 
+
+        //
+        Article article4 = new Article().setAuthor("Garrett Christian")
+                .setImageLocation("meAndQuinnAtBeach.jpg")
+                .setTitle("Garrett Christian")
+                .setImageCaption("Garrett (left) and Quinn (right) at the beach")
+                .setText("Garrett Christian is very excited to present his project again to Brightspot. " +
+                        "Thank you for having me! (the rest of the text is just the first paragraphs of strawberries " +
+                        "wikipedia page)\n\n" +
+                        "The garden strawberry (or simply strawberry; Fragaria × ananassa)[1] is a widely grown hybrid " +
+                        "species of the genus Fragaria, collectively known as the strawberries, which are " +
+                        "cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic " +
+                        "aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, " +
+                        "either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. " +
+                        "Artificial strawberry flavorings and aromas are also widely used in products such as candy, " +
+                        "soap, lip gloss, perfume, and many others.\n" +
+                        "\n" +
+                        "The garden strawberry was first bred in Brittany, France, in the 1750s via a cross of " +
+                        "Fragaria virginiana from eastern North America and Fragaria chiloensis, which was brought" +
+                        " from Chile by Amédée-François Frézier in 1714.[2] Cultivars of Fragaria × ananassa have" +
+                        " replaced, in commercial production, the woodland strawberry (Fragaria vesca), which was " +
+                        "the first strawberry species cultivated in the early 17th century.[3]\n" +
+                        "\n" +
+                        "The strawberry is not, from a botanical point of view, a berry. Technically, it is an " +
+                        "aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's " +
+                        "ovaries but from the receptacle that holds the ovaries.[4] Each apparent \"seed\" (achene)" +
+                        " on the outside of the fruit is actually one of the ovaries of the flower, with a seed " +
+                        "inside it.[4]\n" +
+                        "\n" +
+                        "In 2017, world production of strawberries was 9.2 million tonnes, led by China with " +
+                        "40% of the total.");
+
+        AddResponse addResponse4 = addArticleWithComments(article4);
+        addResponse.updateMessage(addResponse4.getMessage());
+
+        //https://thethoughtfulgamer.com/2017/06/02/viticulture-essential-edition-review/
+        Article article5 = new Article().setAuthor("Adam Chutuape")
+                .setImageLocation("viticulture.jpg")
+                .setTitle("Viticulture Review")
+                .setImageCaption("Essential Edition of Viticulture")
+                .setText("Viticulture: Essential Edition is one of the most polished, professional board game packages " +
+                        "I’ve ever seen. From the perfectly sized box to the phenomenal graphic design to the most succ" +
+                        "inct and clear rulebook I have ever read, Stonemaier games have gone above and beyond to provi" +
+                        "de a quality product.\n" +
+                        "\n" +
+                        "Beyond the beautiful presentation lies a fantastic worker placement game that is a lot more in" +
+                        "teresting than its closest popular peers–Stone Age and Lords of Waterdeep. While perhaps a ha" +
+                        "lf-step more complicated than those two games, Viticulture has the advantage of being more t" +
+                        "hematically cohesive.\n" +
+                        "\n" +
+                        "Gears of [Pinot] Noir\n" +
+                        "Let me explain. As the name implies, Viticulture is a game about winemaking. The player boa" +
+                        "rd contains three major sections: the fields, the crush pads, and the wine cellar. On the c" +
+                        "entral board, there are a number of different actions available to the players, five of whi" +
+                        "ch are central to the winemaking process. First, you acquire vines for your field. These vi" +
+                        "nes are represented by cards which have different grapes actually used in Tuscany (Sangiov" +
+                        "ese, Malvasia, Pinot Nero, etc). Second, you must plant those vines in your field. Third, " +
+                        "you must harvest the grapes, which sends tokens to your crush pad. The fourth key action i" +
+                        "s making the wine itself, which transfers the tokens from the crush pad to the wine cellar" +
+                        ". Finally, you can sell the wines you have in the cellar.\n" +
+                        "\n" +
+                        "Every other action space on the main board is designed to help you accomplish those five t" +
+                        "asks. You can give tours of the winery to make money, add buildings to help your operatio" +
+                        "n grow, draw additional grape or wine order cards, or play visitor cards. These action spa" +
+                        "ces are split into two “seasons”, so you have to consider how you want to split up your wo" +
+                        "rkers between them each round.\n" +
+                        "\n" +
+                        "The visitor cards, which are essentially action cards, are one of the most interesting asp" +
+                        "ects of the game. Usually with this kind of Euro-style game if there is an action card mecha" +
+                        "nism, the cards will only apply marginal or situational benefits.\n" +
+                        "\n" +
+                        "In Viticulture, every single action card is significant. From what I understand, part of t" +
+                        "he upgrade with the Essential Edition was a reworking of the visitor cards to make them use" +
+                        "ful in any phase of the game. Every time you draw a visitor card, it can potentially be the " +
+                        "key you need to push toward a more aggressive strategy, or move you ahead one step further i" +
+                        "n the winemaking process this round, or give you an action that lets you sidestep an action s" +
+                        "pace blocked by other players. I have never played a Euro-style game where action cards are s" +
+                        "o game-changing, and it’s a great feature. It creates a push your luck dynamic, where you can" +
+                        " risk going for more visitor cards at the expense of other pieces of the puzzle, because the" +
+                        "re’s a decent chance that the card is going to give you an even more efficient way to accomp" +
+                        "lish the same goal.\n" +
+                        "\n" +
+                        "The downside, of course, is that if someone happens to get a string of visitor cards that wo" +
+                        "rk particularly well together, it can propel them into the lead. In one game I played, one " +
+                        "of my opponents got 2 cards that cheaply and easily let him acquire additional workers. By" +
+                        " the end of the very first round he had doubled his worker pool from the starting 3 to the" +
+                        " maximum of 6. The rest of us were left behind with 3-4 workers and he managed to build up " +
+                        "a winemaking engine significantly quicker than us. By the midway point of the game, there w" +
+                        "as no chance that anyone else was going to catch up to him. In another game, I happened to " +
+                        "draw visitor cards that always seemed to be poorly timed. While the designers have done a" +
+                        " fantastic job making the visitor cards as useful as possible in any situation, luck can st" +
+                        "ill be a significant factor.\n" +
+                        "\n" +
+                        "Luck can also play a significant factor when it comes to the wine order cards. They dicta" +
+                        "te your winemaking strategy as they are the only way to get victory points through selli" +
+                        "ng wines. If you happen to draw a good mix of early game and late game focused wine orde" +
+                        "r cards at the beginning, you can probably go throughout the game without drawing any a" +
+                        "dditional cards, saving 2-3 actions. If you do not get a good mix of cards (for instance" +
+                        ", getting 3 orders that only want red wine), you get a difficult decision: pursue a sub-op" +
+                        "timal strategic path dictated by your cards, or spend additional actions to try to draw be" +
+                        "tter, more balanced orders. This does not seem as variable as the worker cards, but I beli" +
+                        "eve it bears mentioning.\n" +
+                        "\n" +
+                        "Complex and Spicy\n" +
+                        "Fortunately, the game provides a couple of clever ways to mitigate the common areas of b" +
+                        "ad luck in worker placement games. The most common frustration with this genre is an opp" +
+                        "onent blocking a critical action on the main board, robbing you of the final push you ne" +
+                        "ed to achieve victory or severely delaying your economic engine.\n" +
+                        "\n" +
+                        "Viticulture mitigates this frustration in three small ways. First, everyone gets o" +
+                        "ne “grande” worker, which can be placed on any action space, regardless if it has a" +
+                        "lready been taken. Second. the aforementioned visitor cards frequently give you alternat" +
+                        "ive means of accomplishing the actions on the board. Third, the turn order is determined through" +
+                        " a small mini-round, so if you need to go toward the front of the turn order, you frequently" +
+                        " have that option.\n" +
+                        "\n" +
+                        "Grande workers are frequently seen in packs.\n" +
+                        "This clever mechanism involves 7 spaces on the side of the board that determine turn order. " +
+                        "There is a first player token that moves around the board as in most games, but that only de" +
+                        "termines who selects first on the turn order track. Every space except for the first has an" +
+                        " associated benefit. As you go further down the track, the benefits become more and more en" +
+                        "ticing. They might simply give you a single coin, an extra visitor card, or even an addit" +
+                        "ional worker for that round.\n" +
+                        "\n" +
+                        "The turn order track is a great addition to the game and is certainly a better solution" +
+                        " than first player rotating around the table each round. However, in most of my games there" +
+                        " was a very significant advantage to being able to grab the first spot in the last round. " +
+                        "The game ends at the end of the round in which someone has hit 20 victory points, so you w" +
+                        "ill know almost certainly which round is going to be the last. In that round, the “harvest g" +
+                        "rapes”, “make wine”, and “fulfil wine order” spots are going to be in incredibly high demand" +
+                        ". If you need to do two or more of those actions and you are picking 3rd or 4th for turn orde" +
+                        "r, you will probably not be able to accomplish those two actions without the aid of a visito" +
+                        "r card. In that sense, turn order problems are mitigated but not eliminated. I think this met" +
+                        "hod is probably also better than the Agriciola/Lords of Waterdeep method of having a particu" +
+                        "lar action space that grants you first player, but I am not completely sold yet. You will hav" +
+                        "e games where, due to the where the first player token is, you will know you have no chance " +
+                        "of winning going into the final round.\n" +
+                        "\n" +
+                        "Despite my reservations above, Viticulture is an incredibly pleasant and fun game. The pres" +
+                        "entation is stellar and you can’t help but have a good time seeing your little wine pro" +
+                        "duction system play out. Even if it doesn’t have the strategic depth or refined balance of" +
+                        " its more serious worker placement peers, a 4-5 player game with people who know the rules " +
+                        "is only going to take a bit over an hour, so if you feel like you get robbed by one of t" +
+                        "he luck elements, it doesn’t feel like you’ve wasted your time.\n" +
+                        "\n" +
+                        "The Essential Edition version adds a pinch of flavor by including “Mamas and Papas” cards" +
+                        " which provide variable starting resources. It also comes with a solo variant which is si" +
+                        "mple and enjoyable. Every mechanism in the game feels like it was designed and crafted w" +
+                        "ith care and ingenuity.\n" +
+                        "\n" +
+                        "One final note of interest is that the player count can dramatically affect the feel of" +
+                        " the game. Every action space on the board has three spaces. One space is available in" +
+                        " 1-2 player games, two spaces are available with 3-4 players, and all three spaces are u" +
+                        "sed with 5-6 player games. I’ve not yet played with 6 players, but the 2 and 4 player ga" +
+                        "mes feel significantly more cutthroat and tight compared to the 3 and 5 player games. " +
+                        "I’m not sure if I count this as a positive or a negative, because while it can be a" +
+                        "nnoying to have the feel of the game change so significantly by player count, it al" +
+                        "so provides two unique playing experiences. Neither of them I feel are better than " +
+                        "the other–they’re just different.\n" +
+                        "\n" +
+                        "I love how the glass wine tokens magnify the image underneath.\n" +
+                        "A Fine Vintage\n" +
+                        "To me, this is the perfect introduction to worker placement or euro games. It has" +
+                        " a confidence of presentation and design that makes it welcoming, and thematically" +
+                        " sound mechanisms that just make sense, so you can teach the game with the language" +
+                        " of the theme instead of the language of board games. The process of playing the ga" +
+                        "me in and of itself feels rewarding regardless of how well you do. It’s short enoug" +
+                        "h that trying out alternative strategies doesn’t feel like a waste of time, and that" +
+                        " final round where multiple people are trying to barely edge out each other on the v" +
+                        "ictory point track is exciting.\n" +
+                        "\n" +
+                        "Viticulture: Essential Edition is aptly named. I hesitate to call any board game e" +
+                        "ssential because that seems hyperbolic–no game is going to be good for every player" +
+                        ". But if there’s a worker placement game I’ve played that deserves to be considered f" +
+                        "or every gamer’s collection, it’s this one.");
+
+        AddResponse addResponse5 = addArticleWithComments(article5);
+        addResponse.updateMessage(addResponse5.getMessage());
+
+        Comment comment224 = new Comment().setDislikes(2)
+                .setLikes(4)
+                .setUserName("The Rock")
+                .setText("incredible article I enjoyed this!")
+                .setDate(new Date());
+
+        Comment comment33 = new Comment().setDislikes(2)
+                .setLikes(120)
+                .setUserName("Greg Johnson")
+                .setText("My biggest gripe with the game as a winemaker is that leaving fruit out for a year should " +
+                        "not increase the quality of the wine... you have to throw that out. Other than that " +
+                        "its a pretty good game")
+                .setDate(new Date());
+
+        Comment comment44 = new Comment().setDislikes(2)
+                .setLikes(4)
+                .setUserName("Boar Gam")
+                .setText("Fantastic worker placement game with some card play and a unique wine aging mechanic. " +
+                        "The production is top notch and the theme is very approachable and engaging. I would say " +
+                        "yes, it is really that good.")
+                .setDate(new Date());
+
+        article5.addComment(comment224);
+        article5.addComment(comment33);
+        article5.addComment(comment44);
+
+        //https://thirstkey.com/kota-the-friend-everything-album-review/#:~:text=%E2%80%9C
+        // Everything%E2%80%9D%20is%20a%20very%20necessary,minutes%2C%20but%20a%20worthwhile%20one.
+        Article article6 = new Article().setAuthor("Julian Veich")
+                .setImageLocation("kotaEverything.jpg")
+                .setTitle("Everything Album Review")
+                .setImageCaption("Cover of Kota The Friend's album Everything")
+                .setText("Going into “Everything“, I had only heard a handful of Kota The Friend’s songs.\n" +
+                        "\n" +
+                        "I’ve always heard his name praised and his back catalog definitely warrants a listen. " +
+                        "So, I decided to use his new album “Everything” as my proper introduction.\n" +
+                        "\n" +
+                        "My ideas on what to expect weren’t very developed being based on impressions from just a " +
+                        "couple of songs, but I was excited to see what everyone’s been talking about.\n" +
+                        "\n" +
+                        "So let’s dive in.\n" +
+                        "\n" +
+                        "Kota stated multiple times that the intention with “Everything” was to make a noticeably " +
+                        "happier album. Which he definitely does. But in doing so, whether intentionally or not, what" +
+                        " he creates is something very nostalgic. The production, done by Kota himself, definitely " +
+                        "boosts that feeling. But it’s really in the lyrics. The subtle details he chooses to include " +
+                        "that made me feel like I was a part of what he was rapping about. At the very least, I could " +
+                        "envision it clearly.\n" +
+                        "\n" +
+                        "Usually, I need at least 2 years removed from an album to consider it even slightly nostalgic " +
+                        "but “Everything” carries that feeling sheerly in its presentation. The first two tracks " +
+                        "“Summerhouse” and “Mi Casa” immediately set that tone. They’re both very laid back songs yet " +
+                        "Kota does demonstrate his ability to flow on them. Both tracks have very strong second verse " +
+                        "performances from Kota. Once he gets comfortable on these beats, he really takes off. I think " +
+                        "a big part of that is because he produces everything himself. (He only has assistance on a " +
+                        "couple of songs)\n" +
+                        "\n" +
+                        "The album’s strongest moment in terms of flow and production for me is “B.Q.E.”. The horns on t" +
+                        "he beat are gorgeous and addictive. Kota, Joey Bada$$, and Bas all pay homage to their home of" +
+                        " New York with quick, infectious flows. Everybody is in their element here and it makes for a " +
+                        "pleasantly surprising grouping of talented rappers.\n" +
+                        "\n" +
+                        "“Long Beach” is the poppiest song on the album and Kota pulls it off pretty well. It " +
+                        "reminds me a lot of Goldlink’s more dance-oriented cuts. While I probably wouldn’t have " +
+                        "enjoyed multiple songs like this on the album, I do enjoy this one. If the album’s goal is " +
+                        "positivity, it makes sense to have at least one moment where you want to dance.\n" +
+                        "\n" +
+                        "While “Everything” is far from a concept record, I still have to praise its brief uses of " +
+                        "skits. The short appearances from Lupita Nyong’o and Lakeith Stanfield defining what means " +
+                        "everything to them stay on the album’s theme without taking too much time away from the music. " +
+                        "I’ve criticized Royce Da 5’9 and Joyner Lucas for the skits on their albums but I finally " +
+                        "have an example in 2020 of skits being well placed and executed. Thank you, Kota.\n" +
+                        "\n" +
+                        "“Away Park” is a VERY close second for my favorite track. It’s that nostalgia factor " +
+                        "I mentioned this album has encapsulated and beautifully orchestrated in one song. Kota’s " +
+                        "subtle storytelling is at it’s best in the verses and the beat is fittingly understated yet " +
+                        "so smooth. The singing at the end from Kaiit alone just FEELS like summer. The whole song is " +
+                        "so warm and lackadaisical. It makes me so happy.\n" +
+                        "\n" +
+                        "After hitting such a high, it saddens me that “Volvo” grinds the album’s flow to almost a " +
+                        "halt. Kota’s flow is so dull and monotonous on the song. It feels egregiously out of place " +
+                        "ere. Not that I’d enjoy it much in any context. The lyrics don’t do anything to save it eith" +
+                        "er. Along with feeling low energy, it feels low effort. It’s the only song I have such comp" +
+                        "laints about and that’s the biggest reason it’s such a questionable inclusion. Like the album" +
+                        " as a whole though, it comes and goes quickly.\n" +
+                        "\n" +
+                        "“Morocco” is the only other disappointing song but not because of Kota. Kota’s verse on the " +
+                        "song is actually one of my favorites he lays down. His humor and confidence really shine. Bu" +
+                        "t the feature from tobi lou is written and delivered like a bad freestyle. The rhymes are ba" +
+                        "sic at best and their delivery isn’t any better. It’s a short verse but it really did kill m" +
+                        "y enjoyment of the song. Like with “Volvo”, I think every other feature on this album was gr" +
+                        "eat. Which makes this one a head-scratcher.\n" +
+                        "\n" +
+                        "“Seven (Interlude)” does have a great verse from Kota. I really like his rhyme scheme there" +
+                        ". But the interlude is really more of a platform for Kota’s spoken section at the end. He s" +
+                        "hares his philosophies since becoming a father and basically presents to us the foundation o" +
+                        "f the album’s conception. I really like where Kota’s coming from here. As good as he is at r" +
+                        "apping, it was nice to hear him directly articulate himself and his views. It feels a little " +
+                        "more personal.\n" +
+                        "\n" +
+                        "There are few better feature choices for an album about happiness than KYLE. After not heari" +
+                        "ng him in a long time, he really came through on “Always”. He hasn’t missed a beat. He still " +
+                        "delivers honest bars with a sense of humor and a little self-deprecation. His creative re-pur" +
+                        "posing of Biggie’s “Notorious Thugs” flow is deserving of some praise, too. Kota delivers " +
+                        "two solid verses so as to not get outshined. His presence is still very much felt in the song.\n" +
+                        "\n" +
+                        "Particularly in his last few lines: “Every day I’m findin’ somethin’ different that I’m liv" +
+                        "in’ for. Tryna tell my people they don’t gotta keep they ceilin’ low. Just keep your spirits" +
+                        " high, keep on movin’ as you heal and grow.”\n" +
+                        "\n" +
+                        "The title track and album closer doesn’t overextend itself but it’s another dose of calming " +
+                        "imagery to walk us out of the album. Kota sounds content with the present as he revisits the" +
+                        " past. The ending with him and his son is about as wholesome as it gets. It does what it nee" +
+                        "ds to do. Nothing less, nothing more.\n" +
+                        "\n" +
+                        "“Everything” is a very necessary album for the moment. It feels like summer in a time when " +
+                        "nothing else in the world really does. It’s not a philosophical record but I still see " +
+                        "it as a spiritual cleanser purely through sound. It’s a short trip, clocking in at around " +
+                        "35 minutes, but a worthwhile one. Despite it not being as consistent as I wish it were." +
+                        "Nevertheless, Kota The Friend is clearly very talented and I owe it to myself to check out " +
+                        "his previous work as I await what he does next.");
+
+        for (int i = 0; i < 111; i++) {
+            Comment comment222 = new Comment().setLikes(i + 22)
+                    .setDislikes(i + 1)
+                    .setUserName("Commenter: #" + (i + 1))
+                    .setText("Music is thrilling " + i)
+                    .setDate(new Date());
+
+            article6.addComment(comment222);
+        }
+
+        AddResponse addResponse6 = addArticleWithComments(article6);
+        addResponse.updateMessage(addResponse6.getMessage());
+
         return addResponse;
 
     }

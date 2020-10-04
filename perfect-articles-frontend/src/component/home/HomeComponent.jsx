@@ -69,8 +69,8 @@ class HomeComponent extends Component {
             <div className="container">
                 <div className="container">
                     <div className="title">
-                        <img src={`${process.env.PUBLIC_URL}/assets/pa.png`} onClick={() => this.titleLogoClicked()} width="80" height="80" alt=''/>
-                        <h1 style={{marginLeft: '70px', marginRight: '150px', }}>Perfect Articles</h1>
+                        <img src={`${process.env.PUBLIC_URL}/assets/logoBP.jpg`} onClick={() => this.titleLogoClicked()} width="160" height="85" alt=''/>
+                        <h1 style={{marginLeft: '70px', marginRight: '150px', }}>Blazing Point Articles</h1>
                     </div>
 
                     <h3 className="subHeaderFeatured">Featured Articles</h3> 
